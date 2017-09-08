@@ -1650,6 +1650,7 @@ VALUES(
 	'Sarapatel',
 	7.50
 );
+<<<<<<< HEAD
 
 INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
 VALUES(
@@ -2205,6 +2206,8 @@ VALUES(
 	6
 );
 
+=======
+>>>>>>> c72da9cac9f0daa8d788148c14f908151877c087
 ---TELEFONE_CADASTRO
 INSERT INTO TELEFONE_CADASTRO(CpfCadastrado , telefone) 
 VALUES(
@@ -2307,4 +2310,83 @@ INSERT INTO TELEFONE_CADASTRO(CpfCadastrado , telefone)
 VALUES(
 	'63363932162',
 	'(95) 98977-7010'
+<<<<<<< HEAD
+=======
+);
+---PECA
+INSERT INTO PECA(TIPO, PRECO) 
+VALUES(
+	'Bermuda',
+	8.00
+);
+INSERT INTO PECA(TIPO, PRECO) 
+VALUES(
+	'Calça',
+	13.50
+);
+INSERT INTO PECA(TIPO, PRECO) 
+VALUES(
+	'Blusa fem. simples',
+	9.80
+);
+INSERT INTO PECA(TIPO, PRECO) 
+VALUES(
+	'Camisa',
+	9.80
+);
+INSERT INTO PECA(TIPO, PRECO) 
+VALUES(
+	'Camiseta',
+	8.00
+);
+INSERT INTO PECA(TIPO, PRECO) 
+VALUES(
+	'Camiseta polo',
+	9.80
+);
+INSERT INTO PECA(TIPO, PRECO) 
+VALUES(
+	'Cueca',
+	3.50
+);
+INSERT INTO PECA(TIPO, PRECO) 
+VALUES(
+	'Calcinha',
+	3.50
+);
+INSERT INTO PECA(TIPO, PRECO) 
+VALUES(
+	'Shorts',
+	7.00
+);
+INSERT INTO PECA(TIPO, PRECO) 
+VALUES(
+	'Vestido',
+	10.00
+);
+INSERT INTO PECA(TIPO, PRECO) 
+VALUES(
+	'Saia longa',
+	10.00
+);
+INSERT INTO PECA(TIPO, PRECO) 
+VALUES(
+	'Calça legging',
+	9.00
+);
+INSERT INTO PECA(TIPO, PRECO) 
+VALUES(
+	'Jaqueta Jeans',
+	12.00
+);
+INSERT INTO PECA(TIPO, PRECO) 
+VALUES(
+	'Jaleco',
+	10.00
+);
+INSERT INTO PECA(TIPO, PRECO) 
+VALUES(
+	'Meia (par)',
+	3.50
+>>>>>>> c72da9cac9f0daa8d788148c14f908151877c087
 );

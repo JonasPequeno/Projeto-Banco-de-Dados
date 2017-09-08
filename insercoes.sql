@@ -1567,5 +1567,4 @@ VALUES(
 	20,
 	'Sarapatel',
 	7.50
-	
 );

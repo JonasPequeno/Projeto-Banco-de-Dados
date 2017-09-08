@@ -1064,6 +1064,97 @@ VALUES(
 	45
 );
 
+--TABELA TEM_RESERVA
+
+INSERT INTO TEM_RESERVA(IdHospede, CodReserva)
+VALUES(
+	18,
+	1 
+
+);
+
+INSERT INTO TEM_RESERVA(IdHospede, CodReserva)
+VALUES(
+	1,
+	2
+);
+
+INSERT INTO TEM_RESERVA(IdHospede, CodReserva)
+VALUES(
+	2, 
+	3 
+
+);
+
+INSERT INTO TEM_RESERVA(IdHospede, CodReserva)
+VALUES(
+	3, 
+	4 
+
+);
+
+INSERT INTO TEM_RESERVA(IdHospede, CodReserva)
+VALUES(
+	4, 
+	5
+
+);
+
+INSERT INTO TEM_RESERVA(IdHospede, CodReserva)
+VALUES(
+	5, 
+	6
+
+);
+
+INSERT INTO TEM_RESERVA(IdHospede, CodReserva)
+VALUES(
+	6, 
+	7 
+
+);
+
+INSERT INTO TEM_RESERVA(IdHospede, CodReserva)
+VALUES(
+	7, 
+	8
+
+);
+
+INSERT INTO TEM_RESERVA(IdHospede, CodReserva)
+VALUES(
+	8, 
+	9 
+
+);
+
+INSERT INTO TEM_RESERVA(IdHospede, CodReserva)
+VALUES(
+	9, 
+	10
+
+);
+
+INSERT INTO TEM_RESERVA(IdHospede, CodReserva)
+VALUES(
+	11, 
+	11
+
+);
+
+INSERT INTO TEM_RESERVA(IdHospede, CodReserva)
+VALUES(
+	12, 
+	12
+);
+
+INSERT INTO TEM_RESERVA(IdHospede, CodReserva)
+VALUES(
+	15,
+	13
+
+);
+
 
 --TABELA CHECAGEM
 INSERT INTO CHECAGEM(Codigo, DataMarcada, HoraMarcada, Status, Observacao, IdHospede, Tipo, Data, Hora)
@@ -1403,6 +1494,126 @@ VALUES(
 	'07/09/2017',
 	'21:00'
 );
+
+--TABELA CONTA
+INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
+VALUES(
+	default,
+	'/09/2017',
+	0
+	true,
+	1
+);
+
+INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
+VALUES(
+	default,
+	'/09/2017',
+	0
+	true,
+	2
+);
+
+INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
+VALUES(
+	default,
+	'/09/2017',
+	0
+	true,
+	3
+);
+
+INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
+VALUES(
+	default,
+	'/09/2017',
+	0
+	true,
+	4
+);
+
+INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
+VALUES(
+	default,
+	'/09/2017',
+	0
+	true,
+	5
+);
+
+INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
+VALUES(
+	default,
+	'/09/2017',
+	0
+	true,
+	6
+);
+
+INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
+VALUES(
+	default,
+	'/09/2017',
+	0
+	true,
+	7
+);
+
+INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
+VALUES(
+	default,
+	'/09/2017',
+	0
+	true,
+	8
+);
+
+INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
+VALUES(
+	default,
+	'/09/2017',
+	0
+	true,
+	9
+);
+
+INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
+VALUES(
+	default,
+	'/09/2017',
+	0
+	true,
+	10
+);
+
+INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
+VALUES(
+	default,
+	'/09/2017',
+	0
+	true,
+	11
+);
+
+INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
+VALUES(
+	default,
+	'/09/2017',
+	0
+	true,
+	12
+);
+
+INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
+VALUES(
+	default,
+	'/09/2017',
+	0
+	true,
+	13
+);
+
+--TABELA ACOMPANHANTES
 
 INSERT INTO ACOMPANHANTES(IdAcompanhante, IdHospedePrincipal)
 VALUES(

@@ -754,25 +754,25 @@ VALUES(
 INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
 VALUES(
 	4,
-	'Cerveja Brahma',
+	'Cerveja Brahma - 350ML',
 	4.50
 );
 INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
 VALUES(
 	4,
-	'Cerveja Bohemia',
+	'Cerveja Bohemia - 350ML',
 	4.50
 );
 INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
 VALUES(
 	4,
-	'Cerveja Devassa',
+	'Cerveja Devassa - 350ML',
 	4.50
 );
 INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
 VALUES(
 	4,
-	'Cerveja Skol',
+	'Cerveja Skol - 350ML',
 	4.50
 );
 

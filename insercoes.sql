@@ -750,3 +750,138 @@ VALUES(
 	'Quarto Suíte',
 	'ALTERAR'
 );
+---TABELA PRODUTO
+INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
+VALUES(
+	4,
+	'Cerveja Brahma',
+	4.50
+);
+INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
+VALUES(
+	4,
+	'Cerveja Bohemia',
+	4.50
+);
+INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
+VALUES(
+	4,
+	'Cerveja Devassa',
+	4.50
+);
+INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
+VALUES(
+	4,
+	'Cerveja Skol',
+	4.50
+);
+
+INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
+VALUES(
+	5,
+	'Vodka CÎROC - 750ML',
+	4.50
+);
+INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
+VALUES(
+	6,
+	'Vodka ABSOLUT - 1L',
+	69.00
+);
+INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
+VALUES(
+	7,
+	'Vodka Skyy 90 - 750ML',
+	99.20
+);
+INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
+VALUES(
+	8,
+	'Coca-Cola - 1L',
+	6.00
+	
+);
+INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
+VALUES(
+	9,
+	'Coca-Cola - 350ML',
+	2.90
+	
+);
+INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
+VALUES(
+	11,
+	'Guaraná Antartica - 2L',
+	7.49
+	
+);
+INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
+VALUES(
+	12,
+	'Guaraná Antartica - 350ML',
+	2.39
+	
+);
+INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
+VALUES(
+	13,
+	'Guaraná Antartica - 1L',
+	5.90
+	
+);
+INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
+VALUES(
+	14,
+	'Tapioca',
+	3.50
+	
+);
+INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
+VALUES(
+	15,
+	'Baião de Dois',
+	9.00
+	
+);
+INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
+VALUES(
+	16,
+	'Carne de Sol com Queijo Coalho',
+	11.00
+	
+);
+INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
+VALUES(
+	17,
+	'Vatapá',
+	5.00
+	
+);
+INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
+VALUES(
+	18,
+	'Buchada de Bode',
+	8.00
+	
+);
+INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
+VALUES(
+	19,
+	'Macaxeira',
+	5.00
+	
+);
+INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
+VALUES(
+	10,
+	'Cuscuz de Milho.',
+	6.50
+	
+);
+INSERT INTO PRODUTO(CODIGO , NOME , PRECO) 
+VALUES(
+	20,
+	'Sarapatel',
+	7.50
+	
+);

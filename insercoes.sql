@@ -1731,40 +1731,6 @@ VALUES(
 	1
 );
 
-INSERT INTO SERVICO_FRIGOBAR(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
-VALUES(
-	1,
-	20,
-	'06/09/2017',
-	'22:30',
-	1
-);
-
-INSERT INTO FRIGOBAR_TEM_PRODUTO(idServExtraFrigobar, codProduto, quantidade, valorVenda)
-VALUES(
-	1,
-	22,
-	5,
-	4
-);
-
-INSERT INTO SERVICO_BAR_RESTAURANTE(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
-VALUES(
-	1,
-	9,
-	'06/09/2017',
-	'19:00',
-	1
-);
-
-INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
-VALUES(
-	1,
-	15,
-	1,
-	9
-);
-
 INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
 VALUES(
 	default,
@@ -1774,32 +1740,6 @@ VALUES(
 	2
 );
 
-INSERT INTO SERVICO_FRIGOBAR(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
-VALUES(
-	2,
-	75,
-	'05/09/2017',
-	'12:30',
-	2
-);
-
-INSERT INTO FRIGOBAR_TEM_PRODUTO(idServExtraFrigobar, codProduto, quantidade, valorVenda)
-VALUES(
-	2,
-	6,
-	1,
-	69
-);
-
-INSERT INTO FRIGOBAR_TEM_PRODUTO(idServExtraFrigobar, codProduto, quantidade, valorVenda)
-VALUES(
-	2,
-	8,
-	1,
-	6
-);
-
-
 INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
 VALUES(
 	default,
@@ -1807,85 +1747,6 @@ VALUES(
 	232.5,
 	true,
 	3
-);
-
-INSERT INTO SERVICO_BAR_RESTAURANTE(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
-VALUES(
-	2,
-	26,
-	'05/09/2017',
-	'13:00',
-	3
-);
-
-INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
-VALUES(
-	2,
-	17,
-	4,
-	5
-);
-
-INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
-VALUES(
-	2,
-	13,
-	1,
-	6
-);
-
-INSERT INTO SERVICO_FRIGOBAR(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
-VALUES(
-	3,
-	45,
-	'07/09/2017',
-	'04:00',
-	3
-);
-
-INSERT INTO FRIGOBAR_TEM_PRODUTO(idServExtraFrigobar, codProduto, quantidade, valorVenda)
-VALUES(
-	3,
-	23,
-	10,
-	45
-);
-
-INSERT INTO SERVICO_ACADEMIA(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva, duracaoTreino, tipoTreino)
-VALUES(
-	1,
-	30,
-	'06/09/2017',
-	'16:00',
-	3,
-	1,
-	'Simples'
-);
-
-
-INSERT INTO SERVICO_LAVANDERIA(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
-VALUES(
-	1,
-	52.5,
-	'06/09/2017',
-	'08:00',
-	3
-);
-
-INSERT INTO LAVANDERIA_LAVA_PECA(idServExtraLavanderia, tipoPeca, quantidade, valorLavagem)
-VALUES(
-	1,
-	'Calça',
-	3,
-	13.5
-);
-
-INSERT INTO LAVANDERIA_LAVA_PECA(idServExtraLavanderia, tipoPeca, quantidade, valorLavagem)
-VALUES(
-	1,
-	'Jaqueta Jeans',
-	1,
-	12
 );
 
 INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
@@ -1906,39 +1767,6 @@ VALUES(
 	5
 );
 
-INSERT INTO SERVICO_BAR_RESTAURANTE(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
-VALUES(
-	3,
-	31,
-	'06/09/2017',
-	'19:40',
-	5
-);
-
-INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
-VALUES(
-	3,
-	18,
-	1,
-	8
-);
-
-INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
-VALUES(
-	3,
-	19,
-	1,
-	5
-);
-
-INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
-VALUES(
-	3,
-	4,
-	4,
-	4.5
-);
-
 INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
 VALUES(
 	default,
@@ -1957,17 +1785,6 @@ VALUES(
 	7
 );
 
-INSERT INTO SERVICO_ACADEMIA(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva, duracaoTreino, tipoTreino)
-VALUES(
-	2,
-	30,
-	'06/09/2017',
-	'17:00',
-	7,
-	1,
-	'Simples'
-);
-
 INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
 VALUES(
 	default,
@@ -1975,23 +1792,6 @@ VALUES(
 	100,
 	true,
 	8
-);
-
-INSERT INTO SERVICO_LAVANDERIA(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
-VALUES(
-	2,
-	20,
-	'06/09/2017',
-	'08:00',
-	8
-);
-
-INSERT INTO LAVANDERIA_LAVA_PECA(idServExtraLavanderia, tipoPeca, quantidade, valorLavagem)
-VALUES(
-	2,
-	'Camisa',
-	2,
-	10
 );
 
 INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
@@ -2021,30 +1821,6 @@ VALUES(
 	11
 );
 
-
-INSERT INTO SERVICO_ACADEMIA(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva, duracaoTreino, tipoTreino)
-VALUES(
-	3,
-	30,
-	'07/09/2017',
-	'20:00',
-	11,
-	1,
-	'Simples'
-);
-
-INSERT INTO SERVICO_ACADEMIA(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva, duracaoTreino, tipoTreino)
-VALUES(
-	4,
-	30,
-	'07/09/2017',
-	'19:00',
-	11,
-	1,
-	'Simples'
-);
-
-
 INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
 VALUES(
 	default,
@@ -2054,89 +1830,6 @@ VALUES(
 	12
 );
 
-INSERT INTO SERVICO_ACADEMIA(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva, duracaoTreino, tipoTreino)
-VALUES(
-	5,
-	30,
-	'05/09/2017',
-	'14:00',
-	12,
-	1,
-	'Simples'
-);
-
-INSERT INTO SERVICO_ACADEMIA(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva, duracaoTreino, tipoTreino)
-VALUES(
-	6,
-	30,
-	'06/09/2017',
-	'14:00',
-	12,
-	1,
-	'Simples'
-);
-
-INSERT INTO SERVICO_ACADEMIA(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva, duracaoTreino, tipoTreino)
-VALUES(
-	7,
-	30,
-	'07/09/2017',
-	'14:00',
-	12,
-	1,
-	'Simples'
-);
-
-INSERT INTO SERVICO_BAR_RESTAURANTE(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
-VALUES(
-	4,
-	116,
-	'06/09/2017',
-	'19:00',
-	12
-);
-
-INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
-VALUES(
-	4,
-	7,
-	1,
-	100
-);
-
-INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
-VALUES(
-	4,
-	16,
-	1,
-	10
-);
-
-INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
-VALUES(
-	4,
-	8,
-	1,
-	6
-);
-
-INSERT INTO SERVICO_LAVANDERIA(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
-VALUES(
-	3,
-	10,
-	'07/09/2017',
-	'08:00',
-	12
-);
-
-INSERT INTO LAVANDERIA_LAVA_PECA(idServExtraLavanderia, tipoPeca, quantidade, valorLavagem)
-VALUES(
-	3,
-	'Jaleco',
-	1,
-	10
-);
-
 INSERT INTO CONTA(notaFiscal, data, valorTotal, status, codReserva)
 VALUES(
 	default,
@@ -2144,65 +1837,6 @@ VALUES(
 	490,
 	true,
 	13
-);
-
-INSERT INTO SERVICO_FRIGOBAR(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
-VALUES(
-	4,
-	90,
-	'06/09/2017',
-	'05:00',
-	13
-);
-
-INSERT INTO FRIGOBAR_TEM_PRODUTO(idServExtraFrigobar, codProduto, quantidade, valorVenda)
-VALUES(
-	4,
-	22,
-	20,
-	4.5
-);
-
-INSERT INTO SERVICO_BAR_RESTAURANTE(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
-VALUES(
-	5,
-	138,
-	'06/09/2017',
-	'19:00',
-	13
-);
-
-INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
-VALUES(
-	5,
-	7,
-	1,
-	100
-);
-
-
-INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
-VALUES(
-	5,
-	11,
-	1,
-	11
-);
-
-INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
-VALUES(
-	5,
-	19,
-	3,
-	5
-);
-
-INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
-VALUES(
-	5,
-	8,
-	2,
-	6
 );
 
 ---TELEFONE_CADASTRO
@@ -2307,4 +1941,379 @@ INSERT INTO TELEFONE_CADASTRO(CpfCadastrado , telefone)
 VALUES(
 	'63363932162',
 	'(95) 98977-7010'
+);
+
+--TABELA SERVICO_FRIGOBAR
+
+INSERT INTO SERVICO_FRIGOBAR(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
+VALUES(
+	1,
+	20,
+	'06/09/2017',
+	'22:30',
+	1
+);
+
+INSERT INTO SERVICO_FRIGOBAR(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
+VALUES(
+	2,
+	75,
+	'05/09/2017',
+	'12:30',
+	2
+);
+
+INSERT INTO SERVICO_FRIGOBAR(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
+VALUES(
+	3,
+	45,
+	'07/09/2017',
+	'04:00',
+	3
+);
+
+INSERT INTO SERVICO_FRIGOBAR(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
+VALUES(
+	4,
+	90,
+	'06/09/2017',
+	'05:00',
+	13
+);
+
+--TABELA FRIGOBAR_TEM_PRODUTO
+
+INSERT INTO FRIGOBAR_TEM_PRODUTO(idServExtraFrigobar, codProduto, quantidade, valorVenda)
+VALUES(
+	1,
+	22,
+	5,
+	4
+);
+
+INSERT INTO FRIGOBAR_TEM_PRODUTO(idServExtraFrigobar, codProduto, quantidade, valorVenda)
+VALUES(
+	2,
+	6,
+	1,
+	69
+);
+
+INSERT INTO FRIGOBAR_TEM_PRODUTO(idServExtraFrigobar, codProduto, quantidade, valorVenda)
+VALUES(
+	2,
+	8,
+	1,
+	6
+);
+
+INSERT INTO FRIGOBAR_TEM_PRODUTO(idServExtraFrigobar, codProduto, quantidade, valorVenda)
+VALUES(
+	3,
+	23,
+	10,
+	45
+);
+
+INSERT INTO FRIGOBAR_TEM_PRODUTO(idServExtraFrigobar, codProduto, quantidade, valorVenda)
+VALUES(
+	4,
+	22,
+	20,
+	4.5
+);
+
+--TABELA SERVICO_BAR_RESTAURANTE
+
+INSERT INTO SERVICO_BAR_RESTAURANTE(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
+VALUES(
+	1,
+	9,
+	'06/09/2017',
+	'19:00',
+	1
+);
+
+INSERT INTO SERVICO_BAR_RESTAURANTE(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
+VALUES(
+	2,
+	26,
+	'05/09/2017',
+	'13:00',
+	3
+);
+
+INSERT INTO SERVICO_BAR_RESTAURANTE(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
+VALUES(
+	3,
+	31,
+	'06/09/2017',
+	'19:40',
+	5
+);
+
+INSERT INTO SERVICO_BAR_RESTAURANTE(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
+VALUES(
+	4,
+	116,
+	'06/09/2017',
+	'19:00',
+	12
+);
+
+INSERT INTO SERVICO_BAR_RESTAURANTE(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
+VALUES(
+	5,
+	138,
+	'06/09/2017',
+	'19:00',
+	13
+);
+
+--TABELA BAR_TEM_PRODUTO
+INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
+VALUES(
+	1,
+	15,
+	1,
+	9
+);
+
+INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
+VALUES(
+	2,
+	17,
+	4,
+	5
+);
+
+INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
+VALUES(
+	2,
+	13,
+	1,
+	6
+);
+
+INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
+VALUES(
+	3,
+	18,
+	1,
+	8
+);
+
+INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
+VALUES(
+	3,
+	19,
+	1,
+	5
+);
+
+INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
+VALUES(
+	3,
+	4,
+	4,
+	4.5
+);
+
+INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
+VALUES(
+	4,
+	7,
+	1,
+	100
+);
+
+INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
+VALUES(
+	4,
+	16,
+	1,
+	10
+);
+
+INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
+VALUES(
+	4,
+	8,
+	1,
+	6
+);
+
+INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
+VALUES(
+	5,
+	7,
+	1,
+	100
+);
+
+
+INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
+VALUES(
+	5,
+	11,
+	1,
+	11
+);
+
+INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
+VALUES(
+	5,
+	19,
+	3,
+	5
+);
+
+INSERT INTO BAR_TEM_PRODUTO(idServExtraBar, codProduto, quantidade, valorVenda)
+VALUES(
+	5,
+	8,
+	2,
+	6
+);
+
+--TABELA SERVICO_ACADEMIA
+
+INSERT INTO SERVICO_ACADEMIA(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva, duracaoTreino, tipoTreino)
+VALUES(
+	1,
+	30,
+	'06/09/2017',
+	'16:00',
+	3,
+	1,
+	'Simples'
+);
+
+INSERT INTO SERVICO_ACADEMIA(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva, duracaoTreino, tipoTreino)
+VALUES(
+	2,
+	30,
+	'06/09/2017',
+	'17:00',
+	7,
+	1,
+	'Simples'
+);
+
+INSERT INTO SERVICO_ACADEMIA(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva, duracaoTreino, tipoTreino)
+VALUES(
+	3,
+	30,
+	'07/09/2017',
+	'20:00',
+	11,
+	1,
+	'Simples'
+);
+
+INSERT INTO SERVICO_ACADEMIA(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva, duracaoTreino, tipoTreino)
+VALUES(
+	4,
+	30,
+	'07/09/2017',
+	'19:00',
+	11,
+	1,
+	'Simples'
+);
+
+
+INSERT INTO SERVICO_ACADEMIA(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva, duracaoTreino, tipoTreino)
+VALUES(
+	5,
+	30,
+	'05/09/2017',
+	'14:00',
+	12,
+	1,
+	'Simples'
+);
+
+INSERT INTO SERVICO_ACADEMIA(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva, duracaoTreino, tipoTreino)
+VALUES(
+	6,
+	30,
+	'06/09/2017',
+	'14:00',
+	12,
+	1,
+	'Simples'
+);
+
+INSERT INTO SERVICO_ACADEMIA(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva, duracaoTreino, tipoTreino)
+VALUES(
+	7,
+	30,
+	'07/09/2017',
+	'14:00',
+	12,
+	1,
+	'Simples'
+);
+
+--TABELA SERVICO_LAVANDERIA
+INSERT INTO SERVICO_LAVANDERIA(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
+VALUES(
+	1,
+	52.5,
+	'06/09/2017',
+	'08:00',
+	3
+);
+
+INSERT INTO SERVICO_LAVANDERIA(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
+VALUES(
+	2,
+	20,
+	'06/09/2017',
+	'08:00',
+	8
+);
+
+INSERT INTO SERVICO_LAVANDERIA(idServExtra, valor, dataSolicitada, horaSolicitada, codReserva)
+VALUES(
+	3,
+	10,
+	'07/09/2017',
+	'08:00',
+	12
+);
+
+--TABELA LAVANDERIA_LAVA_PECA
+INSERT INTO LAVANDERIA_LAVA_PECA(idServExtraLavanderia, tipoPeca, quantidade, valorLavagem)
+VALUES(
+	1,
+	'Calça',
+	3,
+	13.5
+);
+
+INSERT INTO LAVANDERIA_LAVA_PECA(idServExtraLavanderia, tipoPeca, quantidade, valorLavagem)
+VALUES(
+	1,
+	'Jaqueta Jeans',
+	1,
+	12
+);
+
+INSERT INTO LAVANDERIA_LAVA_PECA(idServExtraLavanderia, tipoPeca, quantidade, valorLavagem)
+VALUES(
+	2,
+	'Camisa',
+	2,
+	10
+);
+
+
+INSERT INTO LAVANDERIA_LAVA_PECA(idServExtraLavanderia, tipoPeca, quantidade, valorLavagem)
+VALUES(
+	3,
+	'Jaleco',
+	1,
+	10
 );
